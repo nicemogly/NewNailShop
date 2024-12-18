@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1545B1A1A13A78CBA81E471A /* Pods_NewNailShopTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD9406C6F09905E5F82B3CD9 /* Pods_NewNailShopTests.framework */; };
+		700DA834A3664805B0B55A69 /* Pods_NewNailShop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52527570104A5355ED786FAA /* Pods_NewNailShop.framework */; };
+		BEEF598A2C74A8B6B6E6F0BB /* Pods_NewNailShop_NewNailShopUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA4291F3195D3ADC34B5ACA7 /* Pods_NewNailShop_NewNailShopUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B9F1D6A2D1380E800CC37A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B9F1D4C2D1380E700CC37A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B9F1D532D1380E700CC37A5;
+			remoteInfo = NewNailShop;
+		};
+		4B9F1D742D1380E800CC37A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B9F1D4C2D1380E700CC37A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B9F1D532D1380E700CC37A5;
+			remoteInfo = NewNailShop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14D099260A8D917A30FBE28C /* Pods-NewNailShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewNailShop.debug.xcconfig"; path = "Target Support Files/Pods-NewNailShop/Pods-NewNailShop.debug.xcconfig"; sourceTree = "<group>"; };
+		454FCC06A9F1D49D721D25B0 /* Pods-NewNailShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewNailShop.release.xcconfig"; path = "Target Support Files/Pods-NewNailShop/Pods-NewNailShop.release.xcconfig"; sourceTree = "<group>"; };
+		4B9F1D542D1380E700CC37A5 /* NewNailShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewNailShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B9F1D692D1380E800CC37A5 /* NewNailShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewNailShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B9F1D732D1380E800CC37A5 /* NewNailShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewNailShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F136B3F342C3F429709ECBB /* Pods-NewNailShop-NewNailShopUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewNailShop-NewNailShopUITests.release.xcconfig"; path = "Target Support Files/Pods-NewNailShop-NewNailShopUITests/Pods-NewNailShop-NewNailShopUITests.release.xcconfig"; sourceTree = "<group>"; };
+		52527570104A5355ED786FAA /* Pods_NewNailShop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewNailShop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BDEBA5D1373963782438A3B /* Pods-NewNailShopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewNailShopTests.debug.xcconfig"; path = "Target Support Files/Pods-NewNailShopTests/Pods-NewNailShopTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A2EF141C51E30C41744AF30 /* Pods-NewNailShopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewNailShopTests.release.xcconfig"; path = "Target Support Files/Pods-NewNailShopTests/Pods-NewNailShopTests.release.xcconfig"; sourceTree = "<group>"; };
+		D58684ACDAF8157606B380D1 /* Pods-NewNailShop-NewNailShopUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewNailShop-NewNailShopUITests.debug.xcconfig"; path = "Target Support Files/Pods-NewNailShop-NewNailShopUITests/Pods-NewNailShop-NewNailShopUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA4291F3195D3ADC34B5ACA7 /* Pods_NewNailShop_NewNailShopUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewNailShop_NewNailShopUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD9406C6F09905E5F82B3CD9 /* Pods_NewNailShopTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewNailShopTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4B9F1D562D1380E700CC37A5 /* NewNailShop */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = NewNailShop;
+			sourceTree = "<group>";
+		};
+		4B9F1D6C2D1380E800CC37A5 /* NewNailShopTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = NewNailShopTests;
+			sourceTree = "<group>";
+		};
+		4B9F1D762D1380E800CC37A5 /* NewNailShopUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = NewNailShopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B9F1D512D1380E700CC37A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				700DA834A3664805B0B55A69 /* Pods_NewNailShop.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B9F1D662D1380E800CC37A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1545B1A1A13A78CBA81E471A /* Pods_NewNailShopTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B9F1D702D1380E800CC37A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEEF598A2C74A8B6B6E6F0BB /* Pods_NewNailShop_NewNailShopUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3336F9645E7793FB91AAE568 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14D099260A8D917A30FBE28C /* Pods-NewNailShop.debug.xcconfig */,
+				454FCC06A9F1D49D721D25B0 /* Pods-NewNailShop.release.xcconfig */,
+				D58684ACDAF8157606B380D1 /* Pods-NewNailShop-NewNailShopUITests.debug.xcconfig */,
+				4F136B3F342C3F429709ECBB /* Pods-NewNailShop-NewNailShopUITests.release.xcconfig */,
+				5BDEBA5D1373963782438A3B /* Pods-NewNailShopTests.debug.xcconfig */,
+				6A2EF141C51E30C41744AF30 /* Pods-NewNailShopTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4B9F1D4B2D1380E700CC37A5 = {
+			isa = PBXGroup;
+			children = (
+				4B9F1D562D1380E700CC37A5 /* NewNailShop */,
+				4B9F1D6C2D1380E800CC37A5 /* NewNailShopTests */,
+				4B9F1D762D1380E800CC37A5 /* NewNailShopUITests */,
+				4B9F1D552D1380E700CC37A5 /* Products */,
+				3336F9645E7793FB91AAE568 /* Pods */,
+				D3072FFA29A1D321F2D27C6B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4B9F1D552D1380E700CC37A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B9F1D542D1380E700CC37A5 /* NewNailShop.app */,
+				4B9F1D692D1380E800CC37A5 /* NewNailShopTests.xctest */,
+				4B9F1D732D1380E800CC37A5 /* NewNailShopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3072FFA29A1D321F2D27C6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52527570104A5355ED786FAA /* Pods_NewNailShop.framework */,
+				EA4291F3195D3ADC34B5ACA7 /* Pods_NewNailShop_NewNailShopUITests.framework */,
+				FD9406C6F09905E5F82B3CD9 /* Pods_NewNailShopTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B9F1D532D1380E700CC37A5 /* NewNailShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B9F1D7D2D1380E800CC37A5 /* Build configuration list for PBXNativeTarget "NewNailShop" */;
+			buildPhases = (
+				62C283FD754DD56E2F0A1E49 /* [CP] Check Pods Manifest.lock */,
+				4B9F1D502D1380E700CC37A5 /* Sources */,
+				4B9F1D512D1380E700CC37A5 /* Frameworks */,
+				4B9F1D522D1380E700CC37A5 /* Resources */,
+				4B99616BC0BCEEAE9835690B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4B9F1D562D1380E700CC37A5 /* NewNailShop */,
+			);
+			name = NewNailShop;
+			productName = NewNailShop;
+			productReference = 4B9F1D542D1380E700CC37A5 /* NewNailShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B9F1D682D1380E800CC37A5 /* NewNailShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B9F1D802D1380E800CC37A5 /* Build configuration list for PBXNativeTarget "NewNailShopTests" */;
+			buildPhases = (
+				F60CB666327FCF9D364B3C6B /* [CP] Check Pods Manifest.lock */,
+				4B9F1D652D1380E800CC37A5 /* Sources */,
+				4B9F1D662D1380E800CC37A5 /* Frameworks */,
+				4B9F1D672D1380E800CC37A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B9F1D6B2D1380E800CC37A5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4B9F1D6C2D1380E800CC37A5 /* NewNailShopTests */,
+			);
+			name = NewNailShopTests;
+			productName = NewNailShopTests;
+			productReference = 4B9F1D692D1380E800CC37A5 /* NewNailShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B9F1D722D1380E800CC37A5 /* NewNailShopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B9F1D832D1380E800CC37A5 /* Build configuration list for PBXNativeTarget "NewNailShopUITests" */;
+			buildPhases = (
+				44A587557127BECB3004705B /* [CP] Check Pods Manifest.lock */,
+				4B9F1D6F2D1380E800CC37A5 /* Sources */,
+				4B9F1D702D1380E800CC37A5 /* Frameworks */,
+				4B9F1D712D1380E800CC37A5 /* Resources */,
+				64131C7BD5976479914408AD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B9F1D752D1380E800CC37A5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4B9F1D762D1380E800CC37A5 /* NewNailShopUITests */,
+			);
+			name = NewNailShopUITests;
+			productName = NewNailShopUITests;
+			productReference = 4B9F1D732D1380E800CC37A5 /* NewNailShopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B9F1D4C2D1380E700CC37A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					4B9F1D532D1380E700CC37A5 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					4B9F1D682D1380E800CC37A5 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 4B9F1D532D1380E700CC37A5;
+					};
+					4B9F1D722D1380E800CC37A5 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 4B9F1D532D1380E700CC37A5;
+					};
+				};
+			};
+			buildConfigurationList = 4B9F1D4F2D1380E700CC37A5 /* Build configuration list for PBXProject "NewNailShop" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B9F1D4B2D1380E700CC37A5;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4B9F1D552D1380E700CC37A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B9F1D532D1380E700CC37A5 /* NewNailShop */,
+				4B9F1D682D1380E800CC37A5 /* NewNailShopTests */,
+				4B9F1D722D1380E800CC37A5 /* NewNailShopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B9F1D522D1380E700CC37A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B9F1D672D1380E800CC37A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B9F1D712D1380E800CC37A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44A587557127BECB3004705B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NewNailShop-NewNailShopUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B99616BC0BCEEAE9835690B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewNailShop/Pods-NewNailShop-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewNailShop/Pods-NewNailShop-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NewNailShop/Pods-NewNailShop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62C283FD754DD56E2F0A1E49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NewNailShop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64131C7BD5976479914408AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewNailShop-NewNailShopUITests/Pods-NewNailShop-NewNailShopUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewNailShop-NewNailShopUITests/Pods-NewNailShop-NewNailShopUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NewNailShop-NewNailShopUITests/Pods-NewNailShop-NewNailShopUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F60CB666327FCF9D364B3C6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NewNailShopTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B9F1D502D1380E700CC37A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B9F1D652D1380E800CC37A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B9F1D6F2D1380E800CC37A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B9F1D6B2D1380E800CC37A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B9F1D532D1380E700CC37A5 /* NewNailShop */;
+			targetProxy = 4B9F1D6A2D1380E800CC37A5 /* PBXContainerItemProxy */;
+		};
+		4B9F1D752D1380E800CC37A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B9F1D532D1380E700CC37A5 /* NewNailShop */;
+			targetProxy = 4B9F1D742D1380E800CC37A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4B9F1D7B2D1380E800CC37A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B9F1D7C2D1380E800CC37A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B9F1D7E2D1380E800CC37A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14D099260A8D917A30FBE28C /* Pods-NewNailShop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NewNailShop/Preview Content\"";
+				DEVELOPMENT_TEAM = JX3LM42634;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nailshop.NewNailShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B9F1D7F2D1380E800CC37A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 454FCC06A9F1D49D721D25B0 /* Pods-NewNailShop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NewNailShop/Preview Content\"";
+				DEVELOPMENT_TEAM = JX3LM42634;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nailshop.NewNailShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4B9F1D812D1380E800CC37A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BDEBA5D1373963782438A3B /* Pods-NewNailShopTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JX3LM42634;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nailshop.NewNailShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewNailShop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NewNailShop";
+			};
+			name = Debug;
+		};
+		4B9F1D822D1380E800CC37A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A2EF141C51E30C41744AF30 /* Pods-NewNailShopTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JX3LM42634;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nailshop.NewNailShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewNailShop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NewNailShop";
+			};
+			name = Release;
+		};
+		4B9F1D842D1380E800CC37A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D58684ACDAF8157606B380D1 /* Pods-NewNailShop-NewNailShopUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JX3LM42634;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nailshop.NewNailShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NewNailShop;
+			};
+			name = Debug;
+		};
+		4B9F1D852D1380E800CC37A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F136B3F342C3F429709ECBB /* Pods-NewNailShop-NewNailShopUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JX3LM42634;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nailshop.NewNailShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NewNailShop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B9F1D4F2D1380E700CC37A5 /* Build configuration list for PBXProject "NewNailShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B9F1D7B2D1380E800CC37A5 /* Debug */,
+				4B9F1D7C2D1380E800CC37A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B9F1D7D2D1380E800CC37A5 /* Build configuration list for PBXNativeTarget "NewNailShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B9F1D7E2D1380E800CC37A5 /* Debug */,
+				4B9F1D7F2D1380E800CC37A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B9F1D802D1380E800CC37A5 /* Build configuration list for PBXNativeTarget "NewNailShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B9F1D812D1380E800CC37A5 /* Debug */,
+				4B9F1D822D1380E800CC37A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B9F1D832D1380E800CC37A5 /* Build configuration list for PBXNativeTarget "NewNailShopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B9F1D842D1380E800CC37A5 /* Debug */,
+				4B9F1D852D1380E800CC37A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B9F1D4C2D1380E700CC37A5 /* Project object */;
+}
